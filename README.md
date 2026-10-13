@@ -1,4 +1,4 @@
-# 🚖 Dafatih Transport - Website Sewa Mobil & Transportasi Lombok
+# 🚖 Rasman Travel - Website Sewa Mobil & Transportasi Lombok
 
 Aplikasi web *Fullstack* (MERN Stack dengan MySQL) untuk layanan transportasi, sewa mobil lepas kunci / dengan *driver*, serta antar-jemput rute wisata di Lombok. Dilengkapi dengan antarmuka publik yang responsif, integrasi reservasi via WhatsApp, serta Panel Admin terproteksi untuk pengelolaan data dinamis.
 
