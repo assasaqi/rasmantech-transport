@@ -29,7 +29,8 @@ const Booking = () => {
   }, [location.state]);
 
   return (
-    <div className="min-h-screen pt-20 pb-28 bg-slate-100 text-slate-800">
+    /* Diberi padding-top lebih besar agar tidak tertutup Navbar */
+    <div className="min-h-screen pt-24 sm:pt-28 lg:pt-32 pb-28 bg-slate-100 text-slate-800">
       <div className="max-w-5xl mx-auto px-3.5 sm:px-6 lg:px-8 space-y-4">
 
         {/* HEADER JUDUL HALAMAN */}
@@ -136,7 +137,7 @@ const Booking = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4 items-start">
 
           {/* ======================================================== */}
-          {/* 2. NAVIGASI TAB KHUSUS DESKTOP / TABLET (TETAP NORMAL)   */}
+          {/* 2. NAVIGASI TAB KHUSUS DESKTOP / TABLET                  */}
           {/* ======================================================== */}
           <div className="hidden md:block md:col-span-4 lg:col-span-3 space-y-3">
             <div className="bg-white rounded-3xl border border-slate-200/80 p-2 shadow-xs space-y-1">
